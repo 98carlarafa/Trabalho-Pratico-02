@@ -1,0 +1,18 @@
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Container-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Container-center h2 {
+    color: #564E58;
+    font-family: 'Trebuchet MS';
+}
